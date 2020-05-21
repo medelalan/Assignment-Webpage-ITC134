@@ -1,0 +1,47 @@
+div{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+.header, nav, footer {
+    padding: 10px;
+}
+main {
+    margin: auto;
+    height: 260px;
+    background-color: rgb(108, 196, 147);
+    overflow: hidden;
+    text-align: left;
+}
+nav, footer{
+    background: rgb(196, 248, 196);
+    color: black;
+}
+.leftSide {
+    text-align: center;
+    height: 260px;
+    background-color: rgb(228, 253, 191);
+    float: left;
+    width: 200px;
+    height: 260px;
+}
+LinkDetail {
+    text-align: center
+
+}
+.ul{
+    text-align: left;
+    margin-left:-35px;
+    list-style-type: none;
+}
+.foundation {
+    text-align: auto;
+    margin: auto;
+    background-color: rgb(108, 196, 147);
+}
+.graph {
+    text-align: center;
+}
+.list {
+    text-align: left;
+}
