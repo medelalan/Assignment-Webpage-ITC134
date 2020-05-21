@@ -1,4 +1,5 @@
 div{
+    background-color: rgb(145, 224, 125);
     margin: auto;
     width: 80%;
     text-align: center;
@@ -9,7 +10,6 @@ div{
 main {
     margin: auto;
     height: 260px;
-    background-color: rgb(108, 196, 147);
     overflow: hidden;
     text-align: left;
 }
@@ -37,7 +37,6 @@ LinkDetail {
 .foundation {
     text-align: auto;
     margin: auto;
-    background-color: rgb(108, 196, 147);
 }
 .graph {
     text-align: center;
