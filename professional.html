@@ -4,6 +4,19 @@
 <head>
     <title>Professional Certificate</title>
     <link rel="stylesheet" href="stylePortal.css">
+    <style>
+    .column {
+        float: left;
+        width: 60%;
+        padding: 10px;
+        height: 500px;
+    }
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    </style>
 </head>     
 
 <body>
@@ -25,18 +38,50 @@
 
         <!-- Main body start -->
         <body>
-            <div id="proBadge">
-                <img src="Pictures/AWS-Certified_Solutions-Architect_Professional_512x512.c51482be8f98b8c9116fddc5918105cb12ecb280.png" alt="Architect">
-                <img src="../Assignment-Webpage-ITC134/Pictures/DevOps-Badge1.c5d3439b6695a57e0d99d9bfe824401ecabfd3b4.png" alt="Engineer">
-            </div>
+            <!-- Badges you may Receive -->
+            <img src="profbadge.png" alt="Professional Badges">
+
+            <!-- Subtopics -->
             <div>
-                <h3>What to know about Proffesional Certified<h3>
+                <h3>What to know about Professional Certified</h3>
+                <p>The two badges are different from each other. One being Architect and the other being Engineer. Very different badges but essential for AWS cert.</p>
+
                 <h3>Recommended knowledge</h3>
+                    <div class="row">
+                        <!-- Solutions Architect -->
+                        <div class="column">
+                            <p>Solutions Architect</p>
+                            <ul>
+                                <li>Two or more years of hands-on experience designing and deploying cloud architecture on AWS</li>
+                                <li>Ability to evaluate cloud application requirements and make architectural recommendations for implementation, deployment, and provisioning applications on AWS</li>
+                                <li>Familiarity with AWS CLI, AWS APIs, AWS CloudFormation templates, the AWS Billing Console, and the AWS Management Console</li>
+                                <li>Explain and apply the five pillars of the AWS Well-Architected Framework</li>
+                                <li>Design a hybrid architecture using key AWS technologies (e.g., VPN, AWS Direct Connect)</li>
+                                <li>Ability to provide best practice guidance on the architectural design across multiple applications and projects of the enterprise</li>
+                                <li>Familiarity with a scripting language</li>
+                                <li>Familiarity with Windows and Linux environments</li>
+                                <li>Map business objectives to application/architecture requirements</li>
+                                <li>Architect a continuous integration and deployment processes</li>
+                            </ul>
+                        </div>
+                        <!-- DevOps Engineer -->
+                        <div class="column">
+                            <p>DevOps Engineer</p>
+                            <ul>
+                                <li>Experience developing code in at least one high-level programming language</li>
+                                <li>Experience building highly automated infrastructures</li>
+                                <li>Experience administering operating systems</li>
+                                <li>Understanding of modern development and operations processes and methodologies</li>
+                            </ul>
+                        </div>
+                    </div>
                 <h3>Cost</h3>
                 <h3>Post Certification</h3>
             </div>
+
         </body>
         <!-- Main body end -->
+
         <footer>
             <p>Copyright &copy; ITC 134</p>
         </footer>
