@@ -1,11 +1,11 @@
 div{
-    background-color: rgb(145, 224, 125);
     margin: auto;
     width: 80%;
     text-align: center;
 }
-.header, nav, footer {
-    padding: 10px;
+header, nav, footer {
+    background-color: rgb(145, 224, 125);
+    padding: 5px;
 }
 main {
     margin: auto;
@@ -25,10 +25,7 @@ nav, footer{
     width: 200px;
     height: 260px;
 }
-LinkDetail {
-    text-align: center
 
-}
 .ul{
     text-align: left;
     margin-left:-35px;
@@ -44,19 +41,20 @@ LinkDetail {
 .list {
     text-align: left;
 }
-/* Alan */
-* {
-    box-sizing: border-box;
+
+div{
+    margin: auto;
+    width: 100%;
+    text-align: center;
 }
 .column {
     float: left;
-    width: 60%;
-    padding: 10px;
-    height: 500px;
+    width: 40%;
 }
+
+/*Clear floats after the columns */
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
-/* End */
