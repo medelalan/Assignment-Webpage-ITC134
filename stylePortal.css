@@ -1,14 +1,14 @@
 div{
-    background-color: rgb(145, 224, 125);
     margin: auto;
     width: 80%;
     text-align: center;
 }
-.header, nav, footer {
-    padding: 10px;
+header, nav, footer {
+    background-color: rgb(145, 224, 125);
+    padding: 5px;
 }
 main {
-    margin: auto;
+    margin: 0 auto;
     height: 260px;
     overflow: hidden;
     text-align: left;
@@ -25,10 +25,7 @@ nav, footer{
     width: 200px;
     height: 260px;
 }
-LinkDetail {
-    text-align: center
 
-}
 .ul{
     text-align: left;
     margin-left:-35px;
@@ -44,3 +41,23 @@ LinkDetail {
 .list {
     text-align: left;
 }
+<<<<<<< Updated upstream
+=======
+
+div{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+.column {
+    float: left;
+    width: 40%;
+}
+
+/*Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+>>>>>>> Stashed changes
