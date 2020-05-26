@@ -50,6 +50,7 @@ div{
 .column {
     float: left;
     width: 40%;
+    margin: center;
 }
 
 /*Clear floats after the columns */
@@ -57,4 +58,5 @@ div{
     content: "";
     display: table;
     clear: both;
+    text-align: center;
 }
